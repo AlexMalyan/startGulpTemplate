@@ -14,4 +14,20 @@
 ```
 npm gulp
   ```
+  ### Используем медиа запросы 
+  ```
+ span{
+  font-size: 20px;
+@media (max-width: 767px) {
+  font-size: 15px;
+}
+}
+div{
+  font-size: 30px;
+  @media (max-width: 767px) {
+    font-size: 20px;
+}
+}
+```
+  
 
