@@ -1,0 +1,35 @@
+// @import "../../node_modules/normalize.css/normalize.css";
+// TODO Не подключаются
+@mixin font($font_name, $file_name, $weight, $style){
+  @font-face {
+    font-family: $font_name;
+    font-display: swap;
+    src: url("../fonts/#{$file_name}.woff") format("woff") , url("../fonts/#{$file_name}.woff2") format("woff2");
+    font-weight: #{$weight};
+    font-style: #{$style};
+  }
+}
+
+@import "normalize";
+@import "fonts";
+@import "header";
+
+
+body{
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+}
+
+span{
+  font-size: 20px;
+@media (max-width: 767px) {
+  font-size: 15px;
+}
+}
+div{
+  font-size: 30px;
+  @media (max-width: 767px) {
+    font-size: 20px;
+}
+}

@@ -1,0 +1,19 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  min-width: 100%;
+  min-height: 10%;
+  background-color: plum;
+
+  ul{
+    flex-basis: 50%;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0;
+    min-width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+}
