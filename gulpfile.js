@@ -47,7 +47,6 @@ let { src, dest } = require('gulp'),
   imagemin = require("gulp-imagemin"),
   // TODO autoprefixer установить продолжение с 55 минуты https://youtu.be/stFOy0Noahg
   svgSprite = require("gulp-svg-sprite"),
-  // TODO ШРИФТЫ установить продолжение с 1:06 минуты https://youtu.be/stFOy0Noahg
   ttf2woff = require("gulp-ttf2woff"),
   ttf2woff2 = require("gulp-ttf2woff2");
 
